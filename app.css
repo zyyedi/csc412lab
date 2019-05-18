@@ -1,12 +1,12 @@
 body {
-    background: #f5d9d5!important;
+    background: #f5d9d5 !important;
     font-family: "Nunito", sans-serif;
 }
 
 .blurb h2 {
-   color: #EA1C2C;
-   font-weight: 100;
-   font-size: 2.5rem;
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
 }
 
 .blurb p {
@@ -23,7 +23,7 @@ body {
 
 #mainNavbar {
     font-size: 1.5rem;
-    font-weight: 100;    
+    font-weight: 100;
 }
 
 #mainNavbar .nav-link {
@@ -58,11 +58,37 @@ body {
         font-weight: 100;
         font-size: 3rem;
     }
+
     .blurb h2 {
         font-size: 2rem;
     }
 }
 
+input[type=text], input[type=password], input[type=number] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
 
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]::placeholder, input[type=password]::placeholder, input[type=number]::placeholder {
+    color: #cccccc;
+}
 
 
